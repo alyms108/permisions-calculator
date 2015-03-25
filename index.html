@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 	<head>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -11,32 +12,50 @@
 		<title>File Permissions Calculator</title>
 	</head>
 	<body>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write 
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute 
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read 
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write
-		</label>
-		<label class="checkbox-inline">
-	  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute
-		</label>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write 
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute 
+					</label>
+				</div><!-- END class "col-md-4" -->
+
+				<div class="col-md-4">
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read 
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute
+					</label>
+				</div><!-- END class "col-md-4" -->
+
+				<div class="col-md-4">
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox1" value="option1"> read
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox2" value="option2"> write
+					</label>
+					<label class="checkbox-inline">
+				  	<input type="checkbox" id="inlineCheckbox3" value="option3"> execute
+					</label>
+				</div><!-- END class "col-md-4"-->
+			</div><!-- END class "row"-->
+
+			<div class="row">
+				<input type="text" value="Numeric value here">
+			</div>
+			
+			<div class="row"><input type="button" value="Calculate"></div>
+		</div>
 	</body>
 </html>
