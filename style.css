@@ -1,1 +1,24 @@
 /* CUSTOM STYLING */
+h1{
+	text-align: center;
+}
+
+.col-md-4{
+	border: solid 1px;
+	padding-left: 102px;
+	padding-right: 72px;
+}
+
+.main{
+	margin-top: 110px;
+}
+
+.text-box{
+	padding-left: 498px;
+	padding-top: 81px;
+}
+
+.calculate-button{
+	padding-top: 60px;
+	padding-left: 534px;
+}
